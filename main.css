@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -72,4 +76,33 @@ input.button {
   top: 53px;
   width: 487px;
   z-index: 0;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+.container {
+  margin-left: 5em;
+  margin-top: 5em;
+}
+
+.results {
+  font-size: small;
+  color: grey;
+}
+
+.result-header {
+  color: #294dec;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+.result-header:hover {
+  text-decoration: underline;
+}
+
+.result-link {
+  color: #006621;
+  line-height: 3px;
 }
